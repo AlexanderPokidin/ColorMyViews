@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         for (item in clickableViews) {
             item.setOnClickListener {
-                makeColored(item)
+                makeColored(it)
             }
         }
     }
